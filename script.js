@@ -212,6 +212,23 @@
 // მომხმარებელი შემოიტანს 155 ლარს თქვენ მას უდნა დაუბრუნოთ,
 // 100₾, 50₾, 5₾
 
+// let userMoney = Number(prompt('Enter money'));
+// let bills = [10, 5, 20, 50, 100, 200];
+// bills.sort(function (a, b) {
+//     return b - a;
+// });
+// while (userMoney >= 5) {
+// 	for (let i = 0; i < bills.length; i++) {
+//         if (userMoney >= bills[i]) {
+//             let bill = bills[i];
+// 			let times = Math.floor(userMoney / bill);
+// 			console.log(`${times}x ${bill}`);
+// 			let remained = userMoney - times * bill;
+// 			userMoney = remained;
+// 		}
+// 	}
+// }
+
 // 17. წარმოიდგინეთ რომ მუშაობთ ბანკში, თქვენ ამოცანას წარმოადგენს
 // რომ მომხმარებელს დაეხმაროთ ფულის კონვერტაციაში, მაგალითად
 // თუ მომხმარებელმა შემოიტანა თანხა 100₾ და შემდგომ მან აიღცია
@@ -219,3 +236,21 @@
 
 // გადააკონვერტიროთ 100₾ დოლარებში და დაუბეჭდოთ მიღებული
 // თანხა კონშოლში, ვალუტად აიღეთ დოლარი, რუბლი, ფუნტი.
+// let userEnters = Number(prompt('Enter money'));
+// let currency = prompt(`Choose currency:
+// a) Dolar
+// b) Ruble
+// c) Pound`);
+
+// if ((!isNaN(userEnters), isNaN(currency))) {
+// 	if (currency === 'a') {
+// 		let money = Math.round(userEnters * 0.371);
+// 		console.log(`you get ${money} Dolar`);
+// 	} else if (currency === 'b') {
+// 		let money = Math.round(userEnters * 34.349);
+// 		console.log(`you get ${money} Ruble`);
+// 	} else {
+// 		let money = Math.round(userEnters * 0.305);
+// 		console.log(`you get ${money} Pound`);
+// 	}
+// }
